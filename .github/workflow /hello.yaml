@@ -1,0 +1,12 @@
+name: HELLO WORLD workflow
+on: 
+  push
+  jobs:
+      job-1:
+      runs-on: ubuntu-latest
+      steps: 
+           -name: cheakout code
+            uses: action/cheakout@v4
+            
+            -name: say HELLOW
+             runs: "HELLO WORLD"
