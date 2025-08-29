@@ -8,5 +8,5 @@ on:
            -name: cheakout code
             uses: action/cheakout@v4
             
-            -name: say HELLOW
+            -name: say HELLO
              runs: "HELLO WORLD"
